@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-
 function SecondsCounter({ seconds }) {
     const digits = String(seconds).padStart(6, "0").split("");
 
